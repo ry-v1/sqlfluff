@@ -4,7 +4,6 @@ import pytest
 
 from sqlfluff.linter import Linter, LintingResult
 from sqlfluff.config import FluffConfig
-from pathlib import Path
 
 
 def normalise_paths(paths):
